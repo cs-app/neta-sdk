@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "neta-sdk"
 include ':app'
-include ':neta-android'
+include ':core'

@@ -1,4 +1,4 @@
-package org.neta.android;
+package org.neta.core;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package org.neta.android;
+package org.neta.core;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("org.neta.android", appContext.getPackageName());
+        assertEquals("org.neta.core.test", appContext.getPackageName());
     }
 }
